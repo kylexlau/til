@@ -1,3 +1,5 @@
+# Script to purge all entries in dba_2pc_pending view
+
 ```sql
 select count(*) from dba_2pc_pending;
 
