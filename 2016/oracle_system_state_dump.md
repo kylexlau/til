@@ -1,4 +1,4 @@
-# How read System State Dump File
+# How to read System State Dump File
 
 Some search keywords:
 
