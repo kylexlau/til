@@ -1,4 +1,4 @@
-# TIL
+# Don't perform DDL operations during busy time
 
 You can't perform DDL operations during Oracle database's busy time.
 When there are long-running querys on objects you need to perform
@@ -9,7 +9,7 @@ done.
 Grant statements are DDL operations.  Don't execute GRANT on hot
 tables at a Oracle database's busy time.
 
-# Reference
+## Reference
 
 From ‘library cache lock’ Waits- Causes and Solutions (Doc ID 1952395.1):
 
